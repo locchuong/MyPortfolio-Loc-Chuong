@@ -29,19 +29,18 @@ const styles = (theme) => ({
         backgroundColor: '#3a4766',
       }
   },
+  whiteText: {
+      color: "#FFFFFF",
+  }
 });
 
 const AppBarCollapse = (props) => (
   <div className={props.classes.root}>
     <AppBarBtnCollapse/>
     <div className={props.classes.buttonBar} id="appbar-collapse">
-      <Button className={props.classes.collapseBtn} href="#skills" color="inherit">
-          <Typography>
-
-          </Typography>
-          Skills
-          </Button>
+      <Button className={props.classes.collapseBtn} href="#skills" color="inherit">Skills</Button>
       <Button className={props.classes.collapseBtn} href="#projects" color="inherit">Projects</Button>
+      <Button className={props.classes.collapseBtn} href="#education" color="inherit">Education</Button>
       <Button className={props.classes.collapseBtn} href="#experience" color="inherit">Work Experience</Button>
       <Button className={props.classes.collapseBtn} href="#contact" color="inherit">Contact Me</Button>
     </div>

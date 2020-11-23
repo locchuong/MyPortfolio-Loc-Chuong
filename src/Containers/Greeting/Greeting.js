@@ -1,5 +1,5 @@
 import React from "react";
-import greetingLogo from "../../Media/greetingLogo.svg";
+import greetingLogo from "../../Media/Images/greetingImage.svg";
 import { Grid, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -9,6 +9,7 @@ import Contacts from "../../Components/Contacts/Contacts";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginTop: "10vh",
   },
   whiteText: {
     color: "#FFFFFF",
@@ -21,7 +22,7 @@ function Greeting() {
     <div className={classes.root}>
       <Grid container spacing={2} justify="center">
         <Grid item sm={12} md={6}>
-          <Typography className={classes.whiteText} variant="h2">
+          <Typography className={classes.whiteText} variant="h1">
             Hi friends, I'm Loc
           </Typography>
           <br></br>

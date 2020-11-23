@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { withStyles } from "@material-ui/core/styles";
-import { Menu } from "@material-ui/core";
+import { Menu, Typography} from "@material-ui/core";
 import IconButton from "@material-ui/core/IconButton";
 import ListIcon from "@material-ui/icons/List";
 import { MenuItem } from "@material-ui/core";
@@ -71,6 +71,9 @@ class AppBarBtnCollapse extends Component {
           </MenuItem>
           <MenuItem onClick={this.handleClose}>
             <a className={classes.menuItemLink} href="#projects">Projects</a>
+          </MenuItem>
+          <MenuItem onClick={this.handleClose}>
+            <a className={classes.menuItemLink} href="#education">Education</a>
           </MenuItem>
           <MenuItem  onClick={this.handleClose}>
             <a className={classes.menuItemLink} href="#experience">Work Experience</a>

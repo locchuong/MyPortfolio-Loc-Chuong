@@ -1,13 +1,6 @@
-/**
- * Code from the below medium post, only updated for latest material UI, using a
- * Menu for the popup and with breakpoints that work.
- *
- * https://medium.com/@habibmahbub/create-appbar-material-ui-responsive-like-bootstrap-1a65e8286d6f
- */
 import React from "react";
-import { Button } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
-import {Grid, Typography} from "@material-ui/core";
+import {Grid} from "@material-ui/core";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import {IconButton} from "@material-ui/core/";
 import GitHubIcon from '@material-ui/icons/GitHub';
