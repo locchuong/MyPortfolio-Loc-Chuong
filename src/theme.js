@@ -1,11 +1,11 @@
 import { red } from '@material-ui/core/colors';
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 // A custom theme for this app
-const theme = createMuiTheme({
+let theme = createMuiTheme({
   palette: {
     type: 'light',
     primary: {
-      main: '#61dafb',
+      main: '#171c28',
       light: '#61dafb',
       dark: '#21a1c4',
     },
@@ -20,6 +20,20 @@ const theme = createMuiTheme({
     background: {
       default: '#171c28',
     },
+  },
+  typography: {
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
   },
   overrides: {
     MuiPaper: {
@@ -36,4 +50,5 @@ const theme = createMuiTheme({
     },
   },
 });
+theme = responsiveFontSizes(theme);
 export default theme;
