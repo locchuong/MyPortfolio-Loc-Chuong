@@ -1,18 +1,18 @@
 import React from "react";
-import { AppBar, IconButton, Toolbar, List, ListItem, ListItemText, Typography} from "@material-ui/core";
-import HomeIcon from '@material-ui/icons/Home';
-import AppBarCollapse from '../AppBarCollapse/AppBarCollapse';
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
+import AppBarCollapse from "../AppBarCollapse/AppBarCollapse";
+import { Fade } from "react-reveal";
 
 function Header() {
   return (
-    <AppBar position="static" elevation={0}>
-      <Toolbar disableGutters="true">
-      <Typography variant="h3">
-            Portfolio
-          </Typography>
-        <AppBarCollapse/>
-      </Toolbar>
-    </AppBar>
+    <Fade top duration={3000}>
+      <AppBar position="sticky" elevation={0}>
+        <Toolbar disableGutters="true">
+          <Typography variant="h3" style={{borderBottom:"1px solid black"}}>Portfolio</Typography>
+          <AppBarCollapse />
+        </Toolbar>
+      </AppBar>
+    </Fade>
   );
 }
 export default Header;

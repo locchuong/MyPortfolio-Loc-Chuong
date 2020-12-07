@@ -3,16 +3,16 @@ import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
 // A custom theme for this app
 let theme = createMuiTheme({
   palette: {
-    type: "light",
+    type: "dark",
     primary: {
-      main: "#171c28",
+      main: "#AEAAF9", // Header Background
       light: "#61dafb",
-      dark: "#21a1c4",
+      dark: "#61dafb",
     },
     secondary: {
-      main: "#b5ecfb",
+      main: "#AEAAF9",
       light: "#61dafb",
-      dark: "#21a1c4",
+      dark: "#61dafb",
     },
     error: {
       main: red.A400,
@@ -20,6 +20,10 @@ let theme = createMuiTheme({
     background: {
       default: "#171c28",
     },
+    text: {
+      primary: "#FFFFFF",
+      secondary: "#FFFFFF",
+    }
   },
   typography: {
     fontFamily: [
@@ -40,13 +44,31 @@ let theme = createMuiTheme({
       root: {
         padding: "20px 10px",
         margin: "10px",
-        backgroundColor: "#fff", // 5d737e
+        backgroundColor: "#171c28", // 5d737e
       },
+    },
+    MuiPopover: {
+      paper: {
+        boxShadow: "0px 0px 25px 10px #3F3D56",
+      }
     },
     MuiButton: {
       root: {
         margin: "5px",
+        color: "black",
+        backgroundColor:"#AEAAF9",
       },
+      contained: {
+          backgroundColor:"none",
+          '&:hover': {
+            backgroundColor:"#FFFFFF",
+          }
+      },
+      outlined: {
+        backgroundColor:"#AEAAF9",
+        color:"#000000",
+        borderColor:"#000000",
+      }
     },
     MuiCssBaseline: {
       "@global": {
