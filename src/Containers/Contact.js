@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
 function Contact() {
   const classes = useStyles();
   return (
-    <Fade bottom>
+    <Fade bottom fraction={0.8}>
     <div id="contact" className={classes.root}>
       <Grid container spacing={2} justify="center">
         <Grid item sm={9}>

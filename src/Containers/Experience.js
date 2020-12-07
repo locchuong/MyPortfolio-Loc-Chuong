@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 function Experience() {
   const classes = useStyles();
   return (
-    <Fade left>
+    <Fade left fraction={0.8}>
       <div id="experience" className={classes.root}>
         <div className={classes.header}>
           <img

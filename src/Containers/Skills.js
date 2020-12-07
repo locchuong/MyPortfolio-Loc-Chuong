@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
 function Skills() {
   const classes = useStyles();
   return (
-    <Fade fraction={0.9}>
+    <Fade fraction={0.8}>
     <div id="skills" className={classes.root}>
       <Grid container spacing={2} justify="center">
         <Grid item sm={12} md={8}>
