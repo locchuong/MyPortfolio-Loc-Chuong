@@ -21,17 +21,19 @@ function Greeting() {
       <div className={classes.root}>
         <Grid container spacing={2} justify="center">
           <Grid item sm={12} md={6}>
-            <Typography variant="h1">
-              Hi friend! I'm Loc,
-            </Typography>
+            <Typography variant="h1">Hi friend! I'm Loc,</Typography>
             <br></br>
             <Typography variant="h4">
               A passionate Software Developer with experience in web
               applications using technologies such as Javascript/Reactjs/Nodejs.
             </Typography>
             <ContactCard />
-            <Button variant="contained">
-                My Resume
+            <Button
+              target="_blank"
+              href="https://drive.google.com/file/d/1bz2tsSaJ0Pk4NMXfMHz4Zd2zC3vruoEi/view?usp=sharing"
+              variant="contained"
+            >
+              My Resume
             </Button>
           </Grid>
           <Grid item sm={12} md={6}>
