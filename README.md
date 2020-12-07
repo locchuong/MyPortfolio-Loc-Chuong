@@ -1,3 +1,6 @@
+# My Portfolio
+Simple portfolio site made by yours truly. This was my first time trying out Material-UI (Front-end framework) and React-Reveal (animations) and so it was quite an experience.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
