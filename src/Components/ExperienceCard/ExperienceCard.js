@@ -46,23 +46,20 @@ const ExperienceCard = (props) => (
       <ul>
         <li>
           <Typography className={props.classes.alignText} variant="subtitle1">
-            Advised UCSD students on university policies regarding the illicit
-            use of drugs and alcohol consumption and micro-mobility devices
+            Advised UCSD students on university policies regarding illicit use
+            of drugs, alcohol consumption and micro-mobility devices
           </Typography>
         </li>
         <li>
           <Typography className={props.classes.alignText} variant="subtitle1">
-            Escorted UCSD students during off-peak hours
+            Collaborated closely with Police Officers in incidents of suspicious
+            persons, disasters, and medical emergencies
           </Typography>
         </li>
         <li>
           <Typography className={props.classes.alignText} variant="subtitle1">
-            Patrolled and locked up UCSD affiliated buildings
-          </Typography>
-        </li>
-        <li>
-          <Typography className={props.classes.alignText} variant="subtitle1">
-            Controlled traffic in areas of contruction on UCSD campus
+            Inspected over 30 UCSD affiliated buildings to ensure security
+            protocols are up-to-date and logged
           </Typography>
         </li>
       </ul>

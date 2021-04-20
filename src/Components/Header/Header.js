@@ -8,7 +8,7 @@ function Header() {
     <Fade top duration={3000}>
       <AppBar position="sticky" elevation={0}>
         <Toolbar disableGutters="true">
-          <Typography variant="h3" style={{borderBottom:"1px solid black"}}>Portfolio</Typography>
+          <Typography variant="h3">Portfolio</Typography>
           <AppBarCollapse />
         </Toolbar>
       </AppBar>

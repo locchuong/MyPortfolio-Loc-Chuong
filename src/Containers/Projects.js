@@ -42,6 +42,14 @@ function Projects() {
         </div>
         <br />
         <Grid container spacing={2} justify="center">
+        <Grid item xs={12} sm={6} md={3}>
+            <ProjectCard
+              title="StudentBoard"
+              summary="Fullstack ReactJS project providing users with an online learning platform akin to Canvas and Piazza"
+              liveLink="https://student-board-app.herokuapp.com"
+              repoLink="https://github.com/locchuong/StudentBoard"
+            ></ProjectCard>
+          </Grid>
           <Grid item xs={12} sm={6} md={3}>
             <ProjectCard
               title="Pathfinding Visualizer"
@@ -60,18 +68,10 @@ function Projects() {
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
             <ProjectCard
-              title="FriendTrip"
-              summary="A ReactJS web app designed to make planning and going on trips with your friends effortless. Frontend built with React-Router & Bootstrap. Backend built with NodeJS, Express, & Firebase."
-              liveLink="https://friendtrip-cse110.herokuapp.com/"
-              repoLink="https://github.com/declansullivan/friendtrip"
-            ></ProjectCard>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <ProjectCard
-              title="Procedural Terrain"
-              summary="A ThreeJS web app for visualizing noise functions as terrain. Implemented a responsive GUI using dat.gui, a lightweight controller library."
-              liveLink="https://github.com/locchuong"
-              repoLink="https://github.com/locchuong"
+              title="Portfolio Site"
+              summary="Responsive ReactJS portfolio site detailing my skills and experiences. Incorporated Material UI to support object-oriented design and re-usability"
+              liveLink="https://loc-portfolio.herokuapp.com/"
+              repoLink="https://github.com/locchuong/MyPortfolio-Loc-Chuong"
             ></ProjectCard>
           </Grid>
         </Grid>

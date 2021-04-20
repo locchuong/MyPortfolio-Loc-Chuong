@@ -1,8 +1,8 @@
 import React from "react";
 import { Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import { IconButton } from "@material-ui/core/";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import profileImage from "../Media/Images/profileImage.PNG";
@@ -66,11 +66,11 @@ function Contact() {
           <IconButton
             className={classes.contactIcon}
             target="_blank"
-            href="https://www.facebook.com/loc.chuong"
+            href="https://www.linkedin.com/in/loc-chuong/"
             edge="start"
-            aria-label="facebook"
+            aria-label="linkedin"
           >
-            <FacebookIcon
+            <LinkedInIcon
               className={classes.contactBtn}
               style={{ fontSize: "50px" }}
             />
