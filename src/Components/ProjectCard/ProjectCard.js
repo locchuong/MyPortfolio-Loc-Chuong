@@ -6,7 +6,6 @@ const useStyles = makeStyles({
   root: {
     display: "flex",
     flexDirection: "column",
-    maxWidth: 345,
     boxShadow: "0px 0px 10px 2px #3F3D56",
     borderRadius: "15px",
     opacity: "0.70",

@@ -8,7 +8,7 @@ import Container from '@material-ui/core/Container'
 import Main from '../Main'; 
 function App() {
   return (
-    <Container maxWidth="xl" className="App">
+    <Container maxWidth="false" disabledGutters className="App">
       <Main/>
     </Container>
   );
