@@ -90,7 +90,7 @@ function Contact() {
           <IconButton
             className={classes.contactIcon}
             target="_blank"
-            href="mailto:locchuong1999@gmail.com"
+            href="mailto:ltchuong19@gmail.com"
             edge="start"
             aria-label="email"
           >
